@@ -91,28 +91,6 @@ Nada toca disco.
 
 ---
 
-# 6️⃣ Qué ocurre internamente
-
-Flujo real:
-
-```
-powershell.exe
-  └─ CLR (.NET runtime)
-       └─ WebClient → HTTP GET
-             └─ Respuesta (string)
-                  └─ PowerShell Parser
-                        └─ ScriptBlock
-                              └─ Ejecución
-```
-
-Nunca se crea archivo.
-
-Por eso se llama:
-
-👉 **Fileless execution**
-
----
-
 # 7️⃣ Diferencia entre DownloadString vs DownloadFile
 
 | Método         | Resultado        | Rastros |
