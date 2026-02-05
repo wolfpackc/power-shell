@@ -6,6 +6,7 @@
 Cuando hablamos de “descargar y ejecutar payloads”, en realidad estamos hablando de:
 
  **1. Conseguir el texto**
+ 
  **2. Ejecutar el texto**
 
 Nada más.
