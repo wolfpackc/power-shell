@@ -4,6 +4,18 @@
 
 Ese matiz es clave.
 
+```
+
+Antes de empezar con la explicación, ten en cuenta que IEX, tal y como vas a escuchar muchas veces,ejecuta texto, 
+PERO
+ese texto tiene que tener comandos de powershell, no basta con poner IEX("MIERDAMIERDA"),
+tiene que haber un comando que acompañe a MIERDAMIERDAMIERDA como por ejemplo 
+"write-host".
+Por eso en los casos que estamos hablando de coger el contenido de un payload funciona sin problemas,
+porque el contenido de ese archivo contiene comandos powershell.
+
+```
+
 ---
 
 ## ✅ Forma correcta de pensarlo
