@@ -79,24 +79,3 @@ Significa:
 👉 Está **enviando información**
 
 ---
-
-## ❌ Olvida por ahora
-
-* Base64
-* DNS
-* Cifrado
-* WebClient
-
-Eso vendrá después.
-
----
-
-Si quieres, dime:
-
-👉 ¿entiendes qué hace esta línea?
-
-```powershell
-Invoke-WebRequest -Uri "http://localhost:8000" -Method POST -Body "hola"
-```
-
-Y a partir de ahí seguimos paso a paso 😄
