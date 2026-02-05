@@ -170,12 +170,6 @@ IEX C:\test.ps1
 
 Porque eso es una ruta, no código.
 
----
-
-#  Regla de oro
-
- IEX solo ejecuta **texto**
- Archivos se ejecutan con `.\archivo.ps1`
 
 ---
 
