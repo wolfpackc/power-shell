@@ -91,4 +91,34 @@ int main() {
 **Un programa puede ejecutar PowerShell en segundo plano igual que puede ejecutar cualquier otro programa.**
 
 ---
+```c
+//CREAR UNA VENTANA
+#include <windows.h>
 
+int main() {
+
+    STARTUPINFO si;
+    PROCESS_INFORMATION pi;
+
+    ZeroMemory(&si, sizeof(si));
+    ZeroMemory(&pi, sizeof(pi));
+    si.cb = sizeof(si);
+
+    char command[] = "powershell.exe -Command \"Write-Host 'Hola con ventana nueva'\"";
+
+    CreateProcess(
+        NULL,
+        command,
+        NULL,
+        NULL,
+        FALSE,
+        CREATE_NEW_CONSOLE,   // <- CLAVE
+        NULL,
+        NULL,
+        &si,
+        &pi
+    );
+
+    return 0;
+}
+```
