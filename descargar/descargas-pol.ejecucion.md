@@ -1,5 +1,3 @@
-## Entonces, en este ejemplo, la variable texto contiene un archivo PS1, ¿cierto? Y luego aquí entraría el problema de las políticas de ejecución, que habría que tener cuidado o si era posible convertir, bueno, más bien convertir ese archivo en texto o quitar las políticas de ejecución, ¿no?
-
 👉 **La variable `$texto` NO contiene un archivo.**
 👉 **Contiene el CONTENIDO del archivo (texto).**
 
@@ -78,11 +76,5 @@ Ahí sí:
 | DownloadString + IEX    | No            | No                |
 | Invoke-WebRequest + IEX | No            | No                |
 | Ejecutar .ps1           | Sí            | Sí                |
-
----
-
-## ✅ Frase que te lo fija
-
-👉 Las políticas bloquean **archivos**, no **texto**.
 
 ---
