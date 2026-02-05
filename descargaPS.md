@@ -1,13 +1,3 @@
-Voy a explicarlo en capas:
-
-1. Qué es cada pieza
-2. Cómo encajan entre sí
-3. Qué ocurre internamente
-4. Diferencia entre ejecutar en memoria vs disco
-5. Implicaciones de seguridad
-
-Todo con mentalidad técnica, no solo recetas.
-
 ---
 
 # 1️⃣ New-Object Net.WebClient
