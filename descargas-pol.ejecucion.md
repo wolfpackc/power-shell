@@ -71,7 +71,7 @@ Ahí sí:
 
 ---
 
-## 🧠 Forma mental correcta
+##  Forma mental correcta
 
 | Caso                    | ¿Hay archivo? | ¿Afecta política? |
 | ----------------------- | ------------- | ----------------- |
@@ -84,17 +84,5 @@ Ahí sí:
 ## ✅ Frase que te lo fija
 
 👉 Las políticas bloquean **archivos**, no **texto**.
-
----
-
-##  Conclusión
-
-En tu ejemplo:
-
-* `$texto` = código en memoria
-* IEX = ejecuta código
-* Execution Policy = ignorada automáticamente
-
-No necesitas ni convertir nada ni tocar políticas.
 
 ---
