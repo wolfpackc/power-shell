@@ -74,28 +74,6 @@ Archivo físico.
 
 ---
 
-# 4️⃣ Invoke-Expression (IEX)
-
-```powershell
-Invoke-Expression "Write-Host Hola"
-```
-
-o abreviado:
-
-```powershell
-IEX "Write-Host Hola"
-```
-
-Función:
-
-👉 Toma una cadena y la ejecuta como código PowerShell.
-
-Es como:
-
-> “Interpreta este texto como si el usuario lo hubiese escrito”.
-
----
-
 # 5️⃣ El combo clásico (fileless)
 
 ```powershell
