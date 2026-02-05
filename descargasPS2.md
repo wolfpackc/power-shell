@@ -132,19 +132,3 @@ Es simplemente:
  **Solo necesitas objetos (o cmdlets) para traer código desde fuera.**
 
 ---
-
-##  Piensa en esto
-
-Leer en voz alta = IEX
-Libro en la mesa = texto
-Ir a la librería = método de descarga
-
-No importa si vas andando, en coche o en bus.
-
-Lo importante:
-
-1. Tener el libro
-2. Leerlo
-
----
-
