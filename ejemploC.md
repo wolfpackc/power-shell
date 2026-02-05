@@ -12,7 +12,7 @@ Te voy a dar un **ejemplo sencillo, educativo y benigno en C**, cuyo único obje
 
 ---
 
-## ✅ Ejemplo básico en C (Windows)
+## ✅ Ejemplo básico en C 
 
 ```c
 #include <windows.h>
