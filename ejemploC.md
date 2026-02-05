@@ -122,3 +122,109 @@ int main() {
     return 0;
 }
 ```
+Perfecto, vamos a explicarlo **paso a paso y en claro**, sin saltos.
+
+---
+
+## 🔴 Qué pasaba antes
+
+Tu programa se ejecutaba dentro de:
+
+👉 Developer Command Prompt (una consola ya existente)
+
+Cuando llamabas a:
+
+```c
+CreateProcess(...)
+```
+
+sin ningún flag especial, Windows hacía esto por defecto:
+
+👉 El proceso hijo **hereda la consola del padre**
+
+Es decir:
+
+Tu programa → ya está en una consola
+PowerShell → usa ESA MISMA consola
+
+Por eso veías:
+
+```
+Hola con ventana
+```
+
+en tu terminal actual.
+
+No había ninguna razón para que Windows creara otra ventana.
+
+---
+
+## 🟡 Por qué cambiar SW_SHOW no solucionó nada
+
+Esto confunde mucho.
+
+```c
+si.wShowWindow = SW_SHOW;
+```
+
+Solo significa:
+
+👉 Si el proceso tiene ventana, muéstrala
+
+Pero:
+
+❗ No crea una consola nueva
+❗ No rompe la herencia
+
+Así que PowerShell seguía usando la consola heredada.
+
+Resultado: nada visible nuevo.
+
+---
+
+## 🟢 Qué cambia con CREATE_NEW_CONSOLE
+
+Cuando añades:
+
+```c
+CREATE_NEW_CONSOLE
+```
+
+Le estás diciendo explícitamente a Windows:
+
+👉 No heredes la consola del padre
+👉 Crea una consola nueva para el hijo
+
+Entonces Windows:
+
+1. Crea nueva ventana de consola
+2. Lanza PowerShell dentro
+
+Ahora sí ves una ventana nueva.
+
+---
+
+## 🧠 Diferencia clave
+
+| Concepto           | Qué hace                      |
+| ------------------ | ----------------------------- |
+| SW_SHOW            | Muestra una ventana si existe |
+| CREATE_NEW_CONSOLE | Crea una ventana nueva        |
+
+Son niveles distintos.
+
+---
+
+## 🎯 Frase final
+
+Antes PowerShell ya tenía consola (la tuya).
+Ahora PowerShell tiene **su propia consola**.
+
+---
+
+## 🧠 Regla de oro
+
+Si ejecutas un programa desde una terminal, sus hijos usarán esa terminal salvo que tú lo impidas.
+
+---
+
