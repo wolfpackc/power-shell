@@ -1,7 +1,3 @@
-Vamos a **bajar una marcha** y quedarnos con **UNA sola idea clara**.
-
----
-
 # 🎯 IDEA ÚNICA
 
 Desde PowerShell se pueden **mandar datos a un servidor** usando una petición web.
