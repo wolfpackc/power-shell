@@ -1,15 +1,12 @@
 https://chatgpt.com/share/69849b09-6274-8011-83d8-2c129c10bad4
 
-Te voy a dar un **ejemplo sencillo, educativo y benigno en C**, cuyo único objetivo es:
 
- Lanzar PowerShell
+# Lanzar PowerShell
  
- Sin mostrar ventana
+ # Sin mostrar ventana
  
- Y que PowerShell solo imprima un mensaje
+# Y que PowerShell solo imprima un mensaje
  
-
-
 ---
 
 ## ✅ Ejemplo básico en C 
@@ -61,7 +58,7 @@ int main() {
 
 ---
 
-## 🧠 Qué hace este programa
+##  Qué hace este programa
 
 1. Usa la API de Windows
 2. Lanza `powershell.exe`
@@ -72,13 +69,13 @@ int main() {
 
 ---
 
-## 🔍 Traducción a lenguaje humano
+##  Traducción a lenguaje humano
 
 > "Windows, ejecuta PowerShell, no muestres ventana y dile que escriba un mensaje."
 
 ---
 
-## 📌 Lo importante que debes entender
+##  Lo importante que debes entender
 
 * No es algo especial de PowerShell
 * Es una capacidad normal del sistema operativo
@@ -86,7 +83,7 @@ int main() {
 
 ---
 
-## 🎯 Quédate con esta idea
+##  Quédate con esta idea
 
 **Un programa puede ejecutar PowerShell en segundo plano igual que puede ejecutar cualquier otro programa.**
 
@@ -122,7 +119,6 @@ int main() {
     return 0;
 }
 ```
-Perfecto, vamos a explicarlo **paso a paso y en claro**, sin saltos.
 
 ---
 
