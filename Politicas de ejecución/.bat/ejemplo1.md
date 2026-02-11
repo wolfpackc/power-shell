@@ -1,7 +1,3 @@
-¡Genial! Vamos a profundizar en cómo funciona el uso de un archivo `.bat` o `.cmd` para ejecutar un script de PowerShell sin que las políticas de ejecución se activen. Explicaré el flujo paso a paso y qué ocurre "detrás de escena".
-
----
-
 ### **1. ¿Qué son los archivos `.bat` y `.cmd`?**
 Son **archivos de script de comandos de Windows** (Batch files). Estos archivos contienen una secuencia de comandos que se ejecutan en la **consola de Windows (cmd.exe)**. Son simples y están diseñados para automatizar tareas, como abrir programas, copiar archivos o, en este caso, ejecutar otro script (PowerShell).
 
@@ -116,5 +112,3 @@ powershell.exe -ExecutionPolicy Bypass -File "C:\ruta\script.ps1" -NoExit
 - **Archivo `.bat`/`.cmd`**: Sirve como "puente" para forzar PowerShell a ignorar temporalmente su política de ejecución.
 - **Parámetro clave**: `-ExecutionPolicy Bypass`.
 - **Flujo**: `cmd.exe` → Llama a PowerShell → Ejecuta el script con permisos temporales.
-
-Si tienes más preguntas o necesitas ajustar algo específico, ¡avísame! 😊
