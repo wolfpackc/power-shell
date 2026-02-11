@@ -70,35 +70,7 @@ powershell.exe -ExecutionPolicy Bypass -File "C:\Users\Usuario\Desktop\hola_mund
 
 ---
 
-### **6. Errores comunes y soluciones**
-- **Error 1**: "El sistema no puede encontrar el archivo especificado".
-  - **Causa**: Ruta incorrecta al script `.ps1` (ej: `C:\ruta\incorrecta\script.ps1`).
-  - **Solución**: Verifica que la ruta sea correcta (usa comillas si hay espacios).
-
-- **Error 2**: "ExecutionPolicy no reconoce el parámetro".
-  - **Causa**: Se escribió mal el parámetro (ej: `-ExecutionPolicy bypass` en minúsculas).
-  - **Solución**: Usa `-ExecutionPolicy Bypass` (case-sensitive en PowerShell).
-
-- **Error 3**: El script no se ejecuta pero no hay errores.
-  - **Causa**: El script `.ps1` tiene errores de sintaxis o no tiene permisos.
-  - **Solución**: Ejecútalo manualmente en PowerShell para ver errores:
-    ```powershell
-    Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
-    .\script.ps1
-    ```
-
----
-
-### **7. ¿Es seguro usar este método?**
-- **Sí**, **si el script es confiable**:
-  - El `.bat` solo ejecuta el script que le indicas.
-  - No hay riesgo adicional si tu código es seguro.
-- **No**, **si el script es malicioso**:
-  - Al usar `Bypass`, PowerShell no bloqueará scripts dañinos (¡cuidado!).
-
----
-
-### **8. Alternativa: Usar `Start-Process` en el `.bat`**
+### **6. Alternativa: Usar `Start-Process` en el `.bat`**
 Si necesitas que la ventana de PowerShell permanezca abierta después de ejecutar el script, modifica el `.bat`:
 ```bat
 @echo off
