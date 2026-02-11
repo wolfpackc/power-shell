@@ -1,0 +1,11 @@
+✅ En una frase
+
+👉 .Content → contenido que vino de Internet
+👉 Get-Content → contenido que está en un archivo local
+
+No tienen relación directa.
+
+✅ Conclusión
+
+Si trabajas con Invoke-WebRequest, siempre usa .Content.
+Get-Content es solo para archivos del sistema.
