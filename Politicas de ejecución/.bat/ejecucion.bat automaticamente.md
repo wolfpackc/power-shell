@@ -1,3 +1,4 @@
+# NO SE PUEDE :disappointed: :disappointed: 
 ### **OJETE**
 - **No existe un método seguro y ético para ejecutar un `.bat` sin interacción del usuario**.
 - Las medidas de seguridad de Windows están diseñadas para evitar esto.
