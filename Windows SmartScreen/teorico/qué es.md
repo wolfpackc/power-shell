@@ -34,19 +34,6 @@ Principalmente cuando:
 
 # 🧷 Zone Identifier (ADS)
 
-Cuando descargas un archivo desde navegador, Windows añade un *Alternate Data Stream*:
-
-```
-Zone.Identifier
-```
-
-Dentro suele haber:
-
-```
-[ZoneTransfer]
-ZoneId=3
-```
-
 ### Significado de ZoneId
 
 | Valor | Origen              |
@@ -56,8 +43,6 @@ ZoneId=3
 | 2     | Sitios confiables   |
 | 3     | Internet            |
 | 4     | Sitios restringidos |
-
-👉 **ZoneId=3 = descargado de Internet**
 
 ---
 
