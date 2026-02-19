@@ -2,7 +2,7 @@
 
 # 1️⃣ ¿Quién lo creó?
 
-Lo creó **Daniel Bohannon**, investigador en seguridad ofensiva.
+Lo creó **Daniel Bohannon**
 
 Fue presentado alrededor de 2016 en conferencias como:
 
@@ -200,14 +200,6 @@ Más usado para:
 ---
 
 # 7️⃣ ¿Se usa mucho en hacking?
-
-Históricamente: muchísimo.
-
-Entre 2016–2019 fue muy popular en:
-
-* Red Team
-* Malware básico
-* Frameworks ofensivos
 
 Hoy en día:
 
