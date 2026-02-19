@@ -1,3 +1,4 @@
+<img width="890" height="519" alt="image" src="https://github.com/user-attachments/assets/78dee7be-aecc-484d-9fa2-33e7c6559a36" />
 
 # 1️⃣ ¿Quién lo creó?
 
