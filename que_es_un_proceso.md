@@ -264,6 +264,7 @@ Cada salto hereda cosas.
 
 Porque:
 
+
 * Puedes colarte en procesos
 * Puedes heredar permisos
 * Puedes reutilizar handles
