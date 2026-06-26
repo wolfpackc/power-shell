@@ -1,4 +1,4 @@
-## se trata de comandos que devuelven objetos
+# se trata de comandos que devuelven objetos
 
 # Las variables se escriben con $
 
