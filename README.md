@@ -1,2 +1,8 @@
+## se trata de comandos que devuelven objetos
+
+# Las variables se escriben con $
+
+# un modulo importante es el ntObjectManager
+
 # Normalmente ocurre que el usuario ejecuta o abre algo inicial (un .exe, un documento Word, un PDF, un script, etc.) y ese elemento contiene instrucciones para lanzar PowerShell como un proceso en segundo plano (sin mostrar ventana) pasándole unos comandos ya definidos, y esos comandos se encargan de descargar código adicional desde Internet y ejecutarlo en memoria o desde disco, y a partir de ese segundo código se realizan las acciones reales como persistencia, comunicación, ejecución de más programas u otras tareas.
  
